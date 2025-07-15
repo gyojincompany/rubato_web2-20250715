@@ -1,0 +1,14 @@
+/* 상단 헤더 */
+header #main_menu {
+    border: 1px solid red;
+    width: 757px;
+    height: 38px;
+    background-image: url("../images/main_menu_bg.png");
+    background-repeat: no-repeat; /* 배경 이미지 반복 제거 */
+}
+
+header #main_menu li {
+    display: inline-block; /* margin 적용하려면 inline-block으로 설정 */
+    font-size: 13px;
+    margin: 10px 30px 0 50px;
+}
