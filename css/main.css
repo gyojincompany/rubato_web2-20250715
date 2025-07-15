@@ -1,6 +1,7 @@
 /* 왼쪽 aside 콘텐츠 */
 aside {
     width: 190px;
+    float: left;
 }
 
 aside #login_box {
@@ -66,4 +67,48 @@ aside #guestbook_title {
 
 aside #guestbook ul {
     margin: 10px 0 0 40px;
+}
+
+/* main 콘텐츠 */
+main {
+    width: 758px;
+    float: right;
+}
+
+/* 공지사항, 자유게시판, 유튜브를 포함하는 컨텐츠 박스 */
+main section#notice_free_youtube { 
+    height: 250px;
+    margin-top: 10px;
+    position: relative;
+    border: 1px solid green;
+}
+
+main section #notice { /* 공지사항 박스 */
+    width: 360px;
+    border: 1px solid red;    
+}
+
+main section .latest_title img.latest_img {
+    float: left;
+}
+
+main section .latest_title img.more {
+    float: right;
+}
+
+main section .latest_content img.pen_image {
+    float: left;
+}
+
+main section .latest_content ul.latest_list {
+    float: right;
+}
+
+main section .latest_content div.subject {
+    float: left;
+    width: 170px;
+}
+
+main section .latest_content div.date {
+    float: right;
 }
