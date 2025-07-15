@@ -1,6 +1,6 @@
 /* 상단 헤더 */
 header {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100px;
     position: relative;
 }
